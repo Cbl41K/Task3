@@ -33,4 +33,4 @@ df = pd.read_csv('Task3/DataFrame_new.csv')
 #
 # new_df.to_csv('DataFrame_new.csv', index=False)
 
-print(df.info())
+print(df.describe())
